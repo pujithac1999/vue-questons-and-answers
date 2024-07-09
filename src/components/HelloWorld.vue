@@ -31,6 +31,25 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+
+    <h1>basic concepts</h1>
+    <code>
+      diffrence between vue2 and vue3
+    </code>
+    <table border="3">
+      <tr>
+        <th>vue2</th>
+        <th>vue3</th>
+      </tr>
+      <tr>
+        <td>.this key word</td>
+        <td>.value keyword</td>
+      </tr>
+      <tr>
+        <td>data() method is used</td>
+        <td>setup() method is used</td>
+      </tr>
+    </table>
   </div>
 </template>
 

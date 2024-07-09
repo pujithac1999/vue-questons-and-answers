@@ -1,7 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link class="routerlink" to="/">Home</router-link> |
+    <router-link class="routerlink" to="/about">About</router-link>
+    <router-link class="routerlink" to="/bind">Bind</router-link>
+    <router-link class="routerlink" to="/vfor">v-for-concept</router-link>
+    <router-link class="routerlink" to="/comp">computed</router-link>
+    <router-link class="routerlink" to="/watch">watcher</router-link>
+    <router-link class="routerlink" to="/props">props concept</router-link>
   </nav>
   <router-view/>
 </template>
@@ -26,5 +31,9 @@ nav {
       color: #42b983;
     }
   }
+}
+
+.routerlink {
+  margin: 5px;
 }
 </style>
