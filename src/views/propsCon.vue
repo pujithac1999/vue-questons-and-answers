@@ -15,7 +15,7 @@ export default {
     },
     setup() {
       const message = ref("waiting for name");
-      const handle = (payload) => {
+      const handle = (payload: any) => {
         message.value = payload
       }
       return {
